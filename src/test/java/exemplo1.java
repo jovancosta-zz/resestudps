@@ -21,6 +21,6 @@ public class exemplo1 {
         Assert.assertEquals(200, response.statusCode());
 
         System.out.println(response.jsonPath().get("forms[0].name").toString());
-        Assert.assertEquals("bauaalbasaur", response.jsonPath().get("forms[0].name").toString());
+        Assert.assertEquals("bulbasaur", response.jsonPath().get("forms[0].name").toString());
     }
 }
